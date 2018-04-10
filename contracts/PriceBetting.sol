@@ -11,6 +11,8 @@ contract PriceBetting is usingOraclize, Ownable {
   }
   
   uint public currentPrice;
+  uint internal roundNumber = 0;
+  uint public share = 0.0001 ether;
   
   event newOraclizeQuery(string description);
   event newPrice(string price);
