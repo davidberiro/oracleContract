@@ -1,4 +1,4 @@
-var DieselPriceBetting = artifacts.require("./DieselPriceBetting.sol");
+var PriceBetting = artifacts.require("./PriceBetting.sol");
 module.exports = function(deployer) {
-  deployer.deploy(DieselPriceBetting);
+  deployer.deploy(PriceBetting);
 };
